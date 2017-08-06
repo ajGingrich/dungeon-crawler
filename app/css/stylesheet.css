@@ -1,0 +1,78 @@
+body {
+  background-color: #c7cbdb;
+  font-size: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#header {
+  position: fixed;
+  /*margin-top: -45px;*/
+  background-color: #064b7c;
+  color: white;
+  clear: both;
+  width: 1050px;
+  margin-top: -70px; }
+
+#header h4 {
+  margin-top: 35px; }
+
+.title {
+  display: inline-block; }
+
+#weaponTitle {
+  float: left;
+  margin-left: 20px; }
+
+#userHealthTitle {
+  float: left;
+  margin-left: 40px; }
+
+#enemyHealthTitle {
+  float: right;
+  margin-right: 40px; }
+
+#levelTitle {
+  float: right;
+  margin-right: 20px; }
+
+#player, .activeItem, .hiddenItem, .hiddenBoundary, .hiddenCenter, .activeBoundary, .activeCenter {
+  display: inline-block;
+  height: 15px;
+  width: 15px; }
+
+#gameContainer {
+  width: 1050px;
+  margin-top: 70px; }
+
+#player {
+  background-color: white; }
+
+#playerImage, .activeItemImage {
+  height: 15px;
+  vertical-align: text-bottom; }
+
+.hiddenItemImage {
+  display: none; }
+
+.activeItem {
+  background-color: white;
+  text-align: center; }
+
+.hiddenItem {
+  background-color: #18191c; }
+
+.hiddenBoundary {
+  background-color: #18191c; }
+
+.hiddenCenter {
+  background-color: #18191c; }
+
+.activeBoundary {
+  background-image: url("http://i1059.photobucket.com/albums/t432/Polynaut/block_02_zps240e4b5a.jpg~original"); }
+
+.activeCenter {
+  background-color: white; }
+
+/*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,98 @@
+$backgroundColor: rgb(199, 203, 219);
+$mapBackground: rgb(139, 143, 153);
+$playerHeight: 15px;
+
+body {
+  background-color: $backgroundColor;
+  font-size: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header {
+  position: fixed;
+  /*margin-top: -45px;*/
+  background-color: rgb(6, 75, 124);
+  color: white;
+  clear: both;
+  width: 1050px;
+  margin-top: -70px;
+
+}
+#header h4 {
+  margin-top: 35px;
+}
+.title {
+  display: inline-block;
+}
+#weaponTitle {
+  float: left;
+  margin-left: 20px;
+}
+#userHealthTitle {
+  float: left;
+  margin-left: 40px;
+}
+
+#enemyHealthTitle {
+  float: right;
+  margin-right: 40px;
+}
+#levelTitle {
+  float: right;
+  margin-right: 20px;
+}
+%block {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+#gameContainer {
+  width: 1050px;
+  margin-top: 70px;
+}
+#player {
+  @extend %block;
+  background-color: white;
+}
+
+#playerImage {
+  height: $playerHeight;
+  vertical-align: text-bottom;
+}
+
+.activeItemImage {
+  @extend #playerImage;
+}
+.hiddenItemImage {
+  display: none;
+}
+
+.activeItem {
+  @extend %block;
+  background-color: white;
+  text-align: center;
+}
+.hiddenItem {
+  @extend %block;
+  background-color: rgb(24, 25, 28);
+}
+
+.hiddenBoundary {
+  @extend %block;
+  background-color: rgb(24, 25, 28);
+}
+
+.hiddenCenter {
+  @extend %block;
+  background-color: rgb(24, 25, 28);
+}
+.activeBoundary {
+  @extend %block;
+  background-image: url('http://i1059.photobucket.com/albums/t432/Polynaut/block_02_zps240e4b5a.jpg~original');
+}
+.activeCenter {
+  @extend %block;
+  background-color: white;
+}
