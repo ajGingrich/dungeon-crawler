@@ -1433,18 +1433,18 @@ for (var i=0; i<7840; i++) {
 }
 
 /*-------Set the active Squares--------*/
-/*var activeSquares = [playerIndex - 281, playerIndex-280, playerIndex-279, playerIndex-212, playerIndex-211,
+var activeSquares = [playerIndex - 281, playerIndex-280, playerIndex-279, playerIndex-212, playerIndex-211,
  playerIndex-210, playerIndex-209, playerIndex-208, playerIndex-143, playerIndex-142, playerIndex-141, playerIndex-140, playerIndex-139,
  playerIndex-139, playerIndex-138, playerIndex-138, playerIndex-137, playerIndex-73, playerIndex-72, playerIndex-71, playerIndex-70,
  playerIndex-69, playerIndex-68, playerIndex-67, playerIndex-3, playerIndex-2, playerIndex-1, playerIndex-74, playerIndex-4, playerIndex-66,
  playerIndex + 281, playerIndex+280, playerIndex+279, playerIndex+212, playerIndex+211,
  playerIndex+210, playerIndex+209, playerIndex+208, playerIndex+143, playerIndex+142, playerIndex+141, playerIndex+140, playerIndex+139,
  playerIndex+139, playerIndex+138, playerIndex+138, playerIndex+137, playerIndex+73, playerIndex+72, playerIndex+71, playerIndex+70,
- playerIndex+69, playerIndex+68, playerIndex+67, playerIndex+3, playerIndex+2, playerIndex+1, playerIndex+74, playerIndex+4, playerIndex+66];*/
-var activeSquares = [];
+ playerIndex+69, playerIndex+68, playerIndex+67, playerIndex+3, playerIndex+2, playerIndex+1, playerIndex+74, playerIndex+4, playerIndex+66];
+/*var activeSquares = [];
 for (var a =0; a< 7840; a++) {
     activeSquares.push(a);
-}
+}*/
 
 //enemies, weapons and items locations
 var mushroomLocations = [];
